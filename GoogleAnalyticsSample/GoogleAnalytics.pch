@@ -1,0 +1,15 @@
+//
+//  GoogleAnalytics.pch
+//  GoogleAnalyticsSample
+//
+//  Created by wzr on 2016/04/12.
+//  Copyright © 2016年 wzr. All rights reserved.
+//
+
+#ifndef GoogleAnalytics_pch
+#define GoogleAnalytics_pch
+#import <Google/Analytics.h>
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* GoogleAnalytics_pch */

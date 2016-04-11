@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"Screen A";
+    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
+    [tracker set:kGAIScreenName value:@"Screen A"];
+    [tracker send:[[GAIDictionaryBuilder createScreenView] build]];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
